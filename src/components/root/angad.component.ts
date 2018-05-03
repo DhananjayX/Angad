@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 
-import {ToyContainerComponent} from './toys/toysContainer.component';
+import {ToyContainerComponent} from '../toys/toysContainer.component';
 
 @Component({
             selector:'angad',
@@ -18,6 +18,6 @@ import {ToyContainerComponent} from './toys/toysContainer.component';
         })
 export  class AngadComponent
 {
-    appHeader:string = "Angad Toy store";
+    appHeader:string = "My  Toy Store";
 
 }

@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AngadComponent } from '../components/root/angad.component';
 import {ToyContainerComponent} from '../components/toys/toysContainer.component';
 import {ToyComponent} from '../components/toys/toy.component';
+import { logger } from '../services/logger';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import {ToyComponent} from '../components/toys/toy.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [logger],
   exports:[ToyComponent],
   bootstrap:[AngadComponent]
 })

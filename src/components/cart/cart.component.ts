@@ -6,7 +6,7 @@ import {Component} from '@angular/core'
     selector:'cart',
     template:`<div> this is a cart 
                 a sample toy in cart :
-                <toy> </toy>
+               
     </div>`
 
 })

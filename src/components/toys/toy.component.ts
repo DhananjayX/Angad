@@ -18,7 +18,7 @@ import { ToyService } from '../../services/toyService';
                 <div style="font-style:italic;font-size:9px;">time :{{srvTime| date:'yyyy-MM-dd HH:mm:ss'}}</div>
               </div> 
                `,
-    styles:['.btm{margin-top:70px;;background-color:white;} .cntinfo{line-height:30px;verticle-align:middle;height:30px;display:inline-block;background-color:#7F2545;border-radius:7px;margin:5px;padding-left:7px;padding-right:6px;}.toyroot{height:250px;width:270px;border:1px solid white;display:inline-block; margin:10px; padding:5px; background-color:#267380;border-radius:7px;}   '],
+    styles:['.btm{margin-top:70px;;background-color:white;} .cntinfo{line-height:30px;verticle-align:middle;height:30px;display:inline-block;background-color:#7F2545;border-radius:7px;margin:5px;padding-left:7px;padding-right:6px;}.toyroot{opacity:1.0; height:250px;width:270px;border:1px solid white;display:inline-block; margin:10px; padding:20px; background-color:#267380;border-radius:9px;}   '],
     providers:[ToyService]
 })
 export  class ToyComponent 
